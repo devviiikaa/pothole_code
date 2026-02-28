@@ -2,27 +2,27 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# Smart Pothole Intelligence System 🎯
 
 ## Basic Details
 
 ### Team Name: SENMONI
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: Devika C - Mar Athanasius College of Engineering, Kothamangalam
+- Member 2: Fathima Nidha T H - Mar Athanasius College of Engineering, Kothamangalam
 
 ### Hosted Project Link
 [mention your project hosted link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+Smart Pothole & Road Damage Intelligence System is a vehicle-mounted IoT solution that detects potholes using sensors and instantly sends alerts to nearby vehicles through a live web dashboard. The system classifies road damage severity and visualizes it on a real-time map to improve road safety.
 
 ### The Problem statement
-[What problem are you solving?]
+Road potholes and sudden road damage cause accidents, vehicle damage, and fuel wastage. Authorities lack real-time road condition data, and drivers receive no prior warning about dangerous road sections.
 
 ### The Solution
-[How are you solving it?]
+Our system uses an ESP8266 with an MPU6050 IMU and ultrasonic sensor to detect potholes based on shock intensity and road depth. Detected potholes are classified into risk levels and sent via WiFi to a live web dashboard where markers appear on a map, warning other vehicles in real time.
 
 ---
 
@@ -31,25 +31,26 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
+- Languages used: C++, HTML, JavaScript
+- Frameworks used: None (Lightweight Web App)
+- Libraries used: Blynk IoT, Leaflet.js (Map)
+- Tools used: Arduino IDE, VS Code, GitHub
 
 **For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
+- Main components: ESP8266 NodeMCU, MPU6050 IMU Sensor, HC-SR04 Ultrasonic Sensor, LED, Active Buzzer, Breadboard, Jumper wires, USB power
+- Specifications: ESP8266 WiFi enabled microcontroller, MPU6050 6-axis accelerometer + gyroscope, Ultrasonic range detection (2–400 cm)
+- Tools required: Arduino IDE, USB cable, Laptop
 
 ---
 
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+- Feature 1: Real-time pothole detection using IMU + ultrasonic fusion
+- Feature 2: Risk classification (Low / Medium / High)
+- Feature 3: Live map visualization with colored markers
+- Feature 4: Push notifications via Blynk app
+- Feature 5: Smart vehicle-to-vehicle alert concept
 
 ---
 
@@ -59,21 +60,28 @@ List the key features of your project:
 
 #### Installation
 ```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
+Install Arduino IDE
+Install ESP8266 board package
+Install libraries:
+- MPU6050
+- TinyGPS++
+- Blynk
 ```
 
 #### Run
 ```bash
-[Run commands - e.g., npm start, python app.py]
+Upload Arduino code
+Open Serial Monitor (115200 baud)
+Run index.html in browser
 ```
 
 ### For Hardware:
 
 #### Components Required
-[List all components needed with specifications]
+ESP8266 NodeMCU ×1, MPU6050 ×1, HC-SR04 ×1, LED ×1, Active Buzzer ×1, Breadboard ×1, Jumper wires
 
 #### Circuit Setup
-[Explain how to set up the circuit]
+MPU6050 → I2C (D1=SCL, D2=SDA), Ultrasonic Trig → D5, Ultrasonic Echo → D6, LED → D0, Buzzer → D3
 
 ---
 
@@ -83,13 +91,13 @@ List the key features of your project:
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![alt text](<Screenshot 2026-02-28 074408.png>)
+Live map showing pothole marker.
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![alt text](<WhatsApp Image 2026-02-28 at 7.47.13 AM.jpeg>)
+Blynk notification alert on phone.
 
-![Screenshot3](Add screenshot 3 here with proper name)
+![alt text](<Screenshot 2026-02-28 074941.png>)
 *Add caption explaining what this shows*
 
 #### Diagrams
