@@ -98,19 +98,22 @@ Live map showing pothole marker.
 Blynk notification alert on phone.
 
 ![alt text](<Screenshot 2026-02-28 074941.png>)
-*Add caption explaining what this shows*
+Serial monitor showing detection + Low severity.
+
+![alt text](<Screenshot 2026-02-28 075020.png>)
+Serial monitor showing detection + High severity.
 
 #### Diagrams
 
 **System Architecture:**
 
-![Architecture Diagram](docs/architecture.png)
-*Explain your system architecture - components, data flow, tech stack interaction*
+![alt text](Architecture.png)
+The Smart Pothole & Road Damage Intelligence System follows a distributed IoT architecture consisting of hardware sensing, edge processing, cloud communication, and real-time visualization.
 
 **Application Workflow:**
 
-![Workflow](docs/workflow.png)
-*Add caption explaining your workflow*
+![alt text](application.png)
+
 
 ---
 
@@ -118,15 +121,12 @@ Blynk notification alert on phone.
 
 #### Schematic & Circuit
 
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
+![alt text](<WhatsApp Image 2026-02-28 at 9.39.46 AM.jpeg>)
 
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
 
 #### Build Photos
 
-![Team](Add photo of your team here)
+![alt text](<WhatsApp Image 2026-02-28 at 9.41.28 AM.jpeg>)
 
 ![Components](Add photo of your components here)
 *List out all components shown*
