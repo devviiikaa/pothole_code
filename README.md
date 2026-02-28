@@ -128,14 +128,11 @@ The Smart Pothole & Road Damage Intelligence System follows a distributed IoT ar
 
 ![alt text](<WhatsApp Image 2026-02-28 at 9.41.28 AM.jpeg>)
 
-![Components](Add photo of your components here)
-*List out all components shown*
+![alt text](image.png)
 
-![Build](Add photos of build process here)
-*Explain the build steps*
+![alt text](image-1.png)
 
-![Final](Add photo of final product here)
-*Explain the final build*
+![alt text](image-2.png)
 
 ---
 
